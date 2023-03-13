@@ -1,7 +1,7 @@
 "use strict";
 let searchButton = document.getElementById("search-btn");
 let inputSearch = document.getElementById("input-name");
-let errorName = document.querySelector(".postbox__error-name");
+let errorName = document.querySelector(".search-panel__error-name");
 errorName.style.visibility = "hidden";
 searchButton.disabled = true;
 
