@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Search Repo</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="postbox">
+            <div class="container">
+                <div class="header">
+                    <div class="wrap-img">
+                        <img class="header-img" src="./img/github.webp" alt="logo">
+                    </div>
+                    <div class="header-text">GitHub</div>
+                    <span class="text">Поисковая страница репозиториев</span>
+                </div>
+                <div class="search-panel__text">Если хотите найти репозитории нужного пользователя, введите /user</div>
+                
+                <form class="postbox__form" action="URL" method="get" name="postform" id="commentform">
+                    <div>
+                        <input class="postbox__input-name" type="text" name="name" id="input-name" value=""
+                            size="25" placeholder="Введите ваш запрос" />
+                        <div class="postbox__error-name">Запрос не может быть пустым</div>
+                    </div>
+                    <div>
+                        <div>
+                            <input class="postbox__input-btn" name="submit" type="submit" id="search-btn"
+                                value="Поиск" />
+                        </div>
+                </form>
+            </div>
+            <div class="result" id="result-block">
+                <!-- <div class="result__content" id="result__content">
+                    <div class="result-list" id="result-list">
+                        <div class="post" id="comment-field">
+                            <div class="post__header">
+                                <div class="post__name">Максим</div>
+                            </div>
+                            <div class="post__body"><a class="link" href="http://" target="_blank">Lorem</a> </div>
+                            <div class="post__id">
+                            </div>
+                        </div>
+                    </div>
+            </div> -->
+        </div>
+    </div>
+    </div>
+
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
