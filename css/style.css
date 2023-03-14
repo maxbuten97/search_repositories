@@ -20,10 +20,11 @@ body {
 .header-img {
   width: 50px;
 }
-.header-text {
+.header-text a{
   font-size: 50px;
   font-weight: 600;
   color: #24292f;
+  text-decoration: none;
 }
 
 .search-panel__text {
