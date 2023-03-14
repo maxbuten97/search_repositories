@@ -42,7 +42,6 @@ document.addEventListener("input", validateForm);
 
 function showRepos() {
   let resultBlock = document.getElementById("result-block");
-  resultBlock.innerHTML = "";
   let resultSearch = "";
   if (repos.length == 0) {
     resultSearch += `
@@ -78,7 +77,6 @@ function showRepos() {
 function searchAndShowRepositories(e) {
   e.preventDefault();
   getRepos(inputSearch.value);
-  e.target.reset();
 }
 
 document.addEventListener("submit", searchAndShowRepositories);
